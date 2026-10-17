@@ -1,0 +1,18 @@
+# Task 1: Buat variabel harga dan jumlah
+harga = 12500
+jumlah = 4
+# Task 2: Hitung total harga
+total_harga = harga * jumlah
+# Task 3: Menghitung sisa pembagian total harga dengan 2000 menggunakan operator %
+sisa_pembagian = total_harga % 2000
+# Task 4: Menghitung harga setelah diskon Rp5.000
+diskon = 5000
+harga_setelah_diskon = total_harga - diskon
+# Task 5: Menampilkan hasil dengan label yang jelas
+print("=== RINCIAN PEMBELIAN BUKU ===")
+print("Harga per Buku   : Rp", harga)
+print("Jumlah Pembelian :", jumlah, "buah")
+print("---------------------------------")
+print("Total Harga      : Rp", total_harga)
+print("Sisa Pembagian % : Rp", sisa_pembagian)
+print("Harga Stl. Diskon: Rp", harga_setelah_diskon)
